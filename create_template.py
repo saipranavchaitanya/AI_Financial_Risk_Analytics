@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the engineered dataset
-df = pd.read_csv("data/train_data_engineered.csv")
+df = pd.read_csv("data/dashboard_data.csv")
 
 # Remove TARGET column if present
 if "TARGET" in df.columns:

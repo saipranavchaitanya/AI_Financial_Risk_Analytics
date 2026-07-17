@@ -50,7 +50,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
 
-    file_path = Path("data/train_data_engineered.csv")
+    file_path = Path("data/dashboard_data.csv")
 
     df = pd.read_csv(file_path)
 

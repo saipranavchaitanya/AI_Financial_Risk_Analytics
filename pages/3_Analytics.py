@@ -24,7 +24,7 @@ st.set_page_config(
 def load_data():
 
     return pd.read_csv(
-        "data/train_data_engineered.csv"
+        "data/dashboard_data.csv"
     )
 
 df = load_data()
