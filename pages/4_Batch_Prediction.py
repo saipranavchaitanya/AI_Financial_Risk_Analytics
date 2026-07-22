@@ -621,7 +621,7 @@ if predict:
             "✅ Batch Prediction Completed Successfully"
         )
 
-        st.balloons()
+        st.success("✅ Batch Prediction Completed Successfully!")
 
         elapsed = time.time()-start_time
 
